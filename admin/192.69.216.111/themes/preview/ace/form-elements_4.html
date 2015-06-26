@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+<!-- Mirrored from 192.69.216.111/themes/preview/ace/form-elements.html by HTTrack Website Copier/3.x [XR&CO'2008], Wed, 25 Dec 2013 04:03:28 GMT -->
+<head>
+		<meta charset="utf-8" />
+		<title>Form Elements - Ace Admin</title>
+
+		<meta name="description" content="Common form elements and layouts" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- basic styles -->
+
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+
+		<link rel="stylesheet" href="assets/css/jquery-ui-1.10.3.custom.min.css" />
+		<link rel="stylesheet" href="assets/css/datepicker.css" />
+		<link rel="stylesheet" href="assets/css/bootstrap-timepicker.css" />
+		<link rel="stylesheet" href="assets/css/daterangepicker.css" />
+	</head>
+
+	<body>
+		<form class="form-horizontal" role="form">
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="widget-box">
+												<div class="widget-header">
+													<h4>Date Picker</h4>
+
+													<span class="widget-toolbar">
+														<a href="#" data-action="settings">
+															<i class="icon-cog"></i>
+														</a>
+
+														<a href="#" data-action="reload">
+															<i class="icon-refresh"></i>
+														</a>
+
+														<a href="#" data-action="collapse">
+															<i class="icon-chevron-up"></i>
+														</a>
+
+														<a href="#" data-action="close">
+															<i class="icon-remove"></i>
+														</a>
+													</span>
+												</div>
+
+												<div class="widget-body">
+													<div class="widget-main">
+														<label for="id-date-picker-1">Date Picker</label>
+
+														<div class="row">
+															<div class="col-xs-8 col-sm-11">
+																<div class="input-group">
+																	<input class="form-control date-picker" id="id-date-picker-1" type="text" data-date-format="yyyy-mm-dd" />
+																	<span class="input-group-addon">
+																		<i class="icon-calendar bigger-110"></i>
+																	</span>
+																</div>
+															</div>
+														</div>
+
+														<hr />
+														<label for="id-date-range-picker-1">Date Range Picker</label>
+
+														<div class="row">
+															<div class="col-xs-8 col-sm-11">
+																<div class="input-group">
+																	<span class="input-group-addon">
+																		<i class="icon-calendar bigger-110"></i>
+																	</span>
+
+																	<input class="form-control" type="text" name="date-range-picker" id="id-date-range-picker-1" />
+																</div>
+															</div>
+														</div>
+
+														<hr />
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</form>
+
+		<script src="../../../../ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+
+		<script src="assets/js/bootstrap.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!--[if lte IE 8]>
+		  <script src="assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+
+		
+
+
+		<script src="assets/js/date-time/bootstrap-datepicker.min.js"></script>
+		<!-- <script src="assets/js/date-time/moment.min.js"></script> -->
+		
+		<!--<script src="assets/js/date-time/daterangepicker.min.js"></script>-->
+
+
+
+
+		<!-- ace scripts -->
+
+
+		<!--<script src="assets/js/ace.min.js"></script>
+
+		<!-- inline scripts related to this page -->
+
+		<script type="text/javascript">
+			jQuery(function($) {
+
+				
+				$('.date-picker').datepicker({autoclose:true}).next().on(ace.click_event, function(){
+					$(this).prev().focus();
+				});
+				//$('input[name=date-range-picker]').daterangepicker().prev().on(ace.click_event, function(){
+				//	$(this).next().focus();
+				//});
+			
+				
+				
+				
+				//we could just set the data-provide="tag" of the element inside HTML, but IE8 fails!
+				
+			
+			});
+		</script>
+	</body>
+
+<!-- Mirrored from 192.69.216.111/themes/preview/ace/form-elements.html by HTTrack Website Copier/3.x [XR&CO'2008], Wed, 25 Dec 2013 04:03:36 GMT -->
+</html>
